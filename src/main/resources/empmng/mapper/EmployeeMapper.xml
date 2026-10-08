@@ -10,6 +10,18 @@
 
 </select>
 
+<select id="removeEmployee" resultType="empmng.entity.Employee">
+
+    DELETE * FROM employees WHERE no = #{no}
+
+</select>
+
+
+<select id="addEmployee" parameterType = "empmng.entity.Employee" >
+
+    INSERT INTO employees (no, name, birthday) VALUES (#{no},#{name},#{birthday})
+
+</select>
 
 
 
