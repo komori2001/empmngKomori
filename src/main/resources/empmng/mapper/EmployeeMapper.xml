@@ -4,6 +4,32 @@
 
 
 
+<select id="getEmployees" resultType="empmng.entity.Employee">
+
+    SELECT * FROM employees ORDER BY no
+
+</select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </mapper>
